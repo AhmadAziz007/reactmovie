@@ -24,7 +24,7 @@ const MovieList = () => {
         </div>
       ) : (
 
-          //error disini aja
+          //error disini
         <div className='row'>
           {movies.map((movie, index) => (
             <div className='col-sm-4 mb-2' key={index}>
